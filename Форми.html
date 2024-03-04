@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Демонстрація використання тегів для роботи з формами">
+    <meta name="keywords" content="теги, робота з формами, HTML">
+    <title>Робота з формами</title>
+</head>
+
+<body>
+
+    <h1>Форма</h1>
+
+<form name="user" action="send.php" method="get">
+<fieldset>
+    <legend>Персональна інформація</legend>
+    <label for="user_name">Ваше Ім'я:</label>
+    <input type="text" name="user_name" placeholder="Youre name
+    " id="user-name" required>
+    <br>
+    <br>
+    <label for="user_age">Повних років:</label>
+    <input type="number" name="user_age" placeholder="Youre age
+    " id="user_age">
+</fieldset>
+    <br>
+    <br>
+    <br>
+    <br>
+    <label for="user_password">Ваш Пароль:</label>
+    <input type="password" name="user_password" placeholder="Youre password
+    " id="user_password">
+    <br>
+    <br>
+    <input type="radio" name="sex" value="Male">M
+    <input type="radio" name="sex" value="FeMale">Ж
+    <br>
+    <br>
+    <label for="remember">Запам'ятати мене</label>
+    <input type="checkbox" name="remember" id="remember">
+    <br>
+    <br>
+    <select name="city">
+        <option value="Kiev">Київ</option>
+        <option value="Lviv">Львів</option>
+    </select>
+    <br>
+    <br>
+    <br>
+    <br>
+    <label for="message">Напишіть нам</label>
+    <textarea name="message" id="message"></textarea>
+    <br>
+    <br>
+    <button type="submit" name="submit" value="Submit">Відправити</button>
+</form>
