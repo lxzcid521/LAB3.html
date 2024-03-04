@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Демонстрація використання гіперпосилань">
+    <meta name="keywords" content="гіперпосилання, HTML">
+    <title>Гіперпосилання</title>
+</head>
+<body>
+
+    <h1>Гіперпосилання</h1>
+
+    <p><a href="https://knute.edu.ua/" target="_blank">Звичайне гіперпосилання</a></p>
+
+    <p><a href="https://www.example.com" download>Завантажити файл</a></p>
+
+</body>
+</html>
